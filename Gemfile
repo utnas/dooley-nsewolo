@@ -19,7 +19,7 @@ group :assets do
   gem 'coffee-rails', '4.0.0'
   gem 'bootstrap'
   gem 'twitter-bootstrap-rails'
-  gem 'handlebars-source', '~> 1.0.0.rc4'
+  gem 'handlebars-source', '~> 1.0.0.rc1'
   gem "ember-rails", github: "emberjs/ember-rails"
 end
 
