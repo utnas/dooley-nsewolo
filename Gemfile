@@ -5,10 +5,6 @@ ruby '2.0.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0.beta1'
 
-group :development, :test do
-#	gem 'sqlite3'
-end
-
 group :production do
 	gem 'pg'
 end
@@ -21,6 +17,7 @@ group :assets do
   # gem 'therubyracer', platforms: :ruby
   gem 'uglifier', '>= 1.0.3'
   gem "ember-rails"
+  gem 'handlebars-source', '~> 1.0.0.rc3'
 end
 
 gem 'jquery-rails'
