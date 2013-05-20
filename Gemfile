@@ -1,9 +1,13 @@
 source 'https://rubygems.org'
 
+ruby '2.0.0'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0.beta1'
 
-gem 'sqlite3'
+group :development, :test do
+	gem 'sqlite3'
+end
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -14,6 +18,7 @@ group :assets do
   # gem 'therubyracer', platforms: :ruby
 
   gem 'uglifier', '>= 1.0.3'
+  gem "ember-rails"
 end
 
 gem 'jquery-rails'
@@ -37,6 +42,3 @@ gem 'jbuilder', '~> 1.0.1'
 # gem 'debugger'
 
 gem "active_model_serializers"
-group :assets do
-  gem "ember-rails"
-end
