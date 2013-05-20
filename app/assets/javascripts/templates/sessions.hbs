@@ -1,0 +1,23 @@
+
+<div class="container-fluid" id="main">
+  <div class="row-fluid">
+   
+	<div class="span3">
+	  <div class="well sidebar-nav">
+	    <ul class="nav nav-list">
+	      	<li class="nav-header">All sessions</li>
+	      	{{#each session in controller}}
+				{{#linkTo "session" session}}
+					Session:{{session.name}}<br/>
+				{{/linkTo}}
+	      	{{/each}}
+	    </ul>
+	  </div>
+	</div>
+
+	<div class="span9">
+	  {{outlet}}
+	</div>
+
+  </div>
+</div>

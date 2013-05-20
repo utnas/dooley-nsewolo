@@ -1,0 +1,5 @@
+{{#each session in controller}}
+	{{#linkTo "session" session}}
+		Session:{{session.name}}<br/>
+	{{/linkTo}}
+{{/each}}
