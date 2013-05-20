@@ -20,6 +20,10 @@ group :assets do
   gem 'handlebars-source', '~> 1.0.0.rc3'
 end
 
+group :development, :test do
+  gem 'sqlite3'
+end
+
 gem 'jquery-rails'
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
