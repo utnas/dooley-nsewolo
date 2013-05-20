@@ -20,6 +20,6 @@ module DooleyNsewolo
     # config.i18n.default_locale = :de
     config.assets.enabled = true
     config.assets.precompile += %w( bootstrap.css )
-    config.ember.variant = :development
+    #config.ember.variant = :development
   end
 end
