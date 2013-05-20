@@ -137,7 +137,7 @@ DEPENDENCIES
   bootstrap
   coffee-rails (= 4.0.0)
   ember-rails!
-  handlebars-source (~> 1.0.0.rc4)
+  handlebars-source (~> 1.0.0.rc1)
   jbuilder (~> 1.0.1)
   jquery-rails
   pg
