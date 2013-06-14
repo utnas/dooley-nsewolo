@@ -1,0 +1,17 @@
+
+body {
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+}
+
+.header{
+	margin-top: 5px;
+}
+
+.main-content{
+	margin-top:180px;
+	margin-bottom:10px;
+	margin-right:50px;
+	margin-left:50px;
+	border-top:1px solid #ddd;
+}

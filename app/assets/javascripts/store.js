@@ -5,6 +5,6 @@ DooleyNsewolo.Adapter = DS.RESTAdapter.extend({
 */
 
 DooleyNsewolo.Store = DS.Store.extend({
-  revision: 11,
+  revision: 13,
   adapter: DS.FixtureAdapter.create()
 });
