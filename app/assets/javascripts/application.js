@@ -17,7 +17,10 @@
 //= require ember
 //= require ember-data
 //= require_self
+//= require bootstrap
 //= require dooley_nsewolo
-DooleyNsewolo = Ember.Application.create();
-
 //= require_tree .
+
+DooleyNsewolo = Ember.Application.create({
+	LOG_TRANSITIONS: true
+});

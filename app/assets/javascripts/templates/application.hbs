@@ -1,11 +1,15 @@
 
 
 <div class="header">
+	{{#linkTo "index"}}
 	<img src="http://bernardi.me/wp-content/uploads/2013/04/avatar.jpg" width="70" height="70" class="img-circle img-polaroid">
+	{{/linkTo}}
 	<h1><strong>Dooley Nsewolo</strong></h1>
 	<p class="muted">Testing Consultant & Web developper</p>
 </div>
+<div class="dotted-line"></div>
 
+<!--div class="top-bar"> 
 	<div class="navbar navbar-fixed-top main-content">
 	  	<div class="navbar-inner">
 	    	<div class="container-fluid">
@@ -13,5 +17,30 @@
 	    	</div>
 	  	</div>
 	</div>
+</div-->
+<div class="main-content">
+	<div class="container-fluid">
+		<div class="row-fluid">
+		  	<div class="span2">
+		  		<div class="side-bar">
+		  			<div id="social" class="widget">
+				        <ul>
+				            <li class="email"><a href="mailto:%6e%73e%77o%6co&#64;g%6dail%2e&#99;o%6d"><div class="icon"></div>E-mail</a></li>
+				           <li class="twitter"><a href="http://twitter.com/utnas"><div class="icon"></div>@utnas</a></li>
+				           <li class="linkedin"><a href="http://fr.linkedin.com/pub/dooley-nsewolo/12/399/657"><div class="icon"></div>LinkedIn</a></li>
+				        </ul>
+		    		</div>
+		  		</div>
+		  	</div>
+		  	
+		  	<div class="span8">
+				{{outlet}}
+		  	</div>
+		</div>
+	</div>
+</div>
 
-{{outlet}}
+
+<div class="dotted-line footer">
+	© Dooley Nsewolo, build with Ember.js
+</div>

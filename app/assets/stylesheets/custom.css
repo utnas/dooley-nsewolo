@@ -1,17 +1,143 @@
 
 body {
 	font-family: 'Raleway', sans-serif;
-	text-align: center;
+	text-align: left;
 }
-
 .header{
 	margin-top: 5px;
+	text-align: center;
+}
+.top-bar{
+	/*margin-bottom: 30px;*/
 }
 
 .main-content{
-	margin-top:180px;
-	margin-bottom:10px;
-	margin-right:50px;
-	margin-left:50px;
-	border-top:1px solid #ddd;
+	margin: 0% 0% 0% 10%; 
+	text-align: left;
+}
+
+.side-bar{
+
+	min-width: 150px;
+
+	float: left;
+	text-align: left;
+}
+
+.footer{
+	margin-top: 20px;
+	font-size: 0.8em;
+	text-align: center;
+}
+
+.dotted-line{
+	border-top:1px dotted #ddd;
+	margin-bottom: 40px;
+}
+
+/* Social stuff */
+
+aside .widget {
+    margin-bottom:30px;
+}
+
+#social ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+#social ul li {
+    overflow:hidden;
+    margin:0;
+}
+
+#social ul li a .icon {
+    width:30px;
+    height:30px;
+    float:left;
+    border-radius: 50%;
+    background-image: url(social_ico_sprite.png);
+    background-repeat:no-repeat;
+    margin-right:10px;
+    background-color:#333;
+}
+
+#social ul li a{
+    display:inline-block;
+    margin-bottom:15px;
+    height:32px;
+    line-height:32px;
+    color:#222;
+    -webkit-transition: all 0.1s ease-out;
+    -moz-transition: all 0.1s ease-out;
+    transition: all 0.1s ease-out;
+}
+
+#social ul li a:hover {
+    margin-left:7px;
+}
+
+#social ul li.twitter a .icon{
+    background-position:54% -1px;
+}
+
+#social ul li.twitter a:hover .icon {
+    background-color:#00CCFF;
+}
+
+#social ul li.facebook a .icon {
+     background-position:54% -33px;
+}
+
+#social ul li.facebook a:hover .icon {
+    background-color:#0059B3;
+}
+
+#social ul li.dribbble a .icon {
+     background-position:54% -65px;
+}
+
+#social ul li.dribbble a:hover .icon {
+    background-color:#C5376D;
+}
+
+#social ul li.vimeo a .icon {
+     background-position:54% -97px;
+}
+
+#social ul li.vimeo a:hover .icon {
+    background-color:#0BADD6;
+}
+
+#social ul li.linkedin a .icon {
+     background-position:54% -129px;
+}
+
+#social ul li.linkedin a:hover .icon {
+    background-color:#0073B2;
+}
+
+#social ul li.github a .icon {
+     background-position:54% -161px;
+}
+
+#social ul li.github a:hover .icon {
+    background-color:#666;
+}
+
+#social ul li.email a .icon {
+     background-position:54% -193px;
+}
+
+#social ul li.email a:hover .icon {
+    background-color:#66C804;
+}
+
+#social ul li.rss a .icon {
+     background-position:54% -225px;
+}
+
+#social ul li.rss a:hover .icon {
+    background-color:#FF9326;
 }
