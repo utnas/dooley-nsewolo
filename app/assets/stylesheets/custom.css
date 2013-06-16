@@ -1,7 +1,9 @@
 
 body {
-	font-family: 'Raleway', sans-serif;
 	text-align: left;
+    color: #373737;
+    font: 15px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
 }
 .avatar{
 	text-align: center;
@@ -11,25 +13,29 @@ body {
 	text-align: center;
 	background-color: #2ba6cb;
 	color: white;
+    line-height: 1.2em;
 }
 
 .gray-text{
 	color: #CCC;
 	font-size: 0.9em;
-	margin-top: 0.5em;
+	margin-top: 0.1em;
 }
 .name{
 	font-size: 2.0em;
-	margin-top: 0.3em;
+	margin-top: 0.1em;
+    line-height: 0.9em;
 }
 .top-bar{
 	margin-bottom: 2.5em;
     margin-right: 8%;
+    margin-left: 8%;
 }
 
 .main-content{
 	margin: 0% 0% 0% 10%; 
 	text-align: left;
+    line-height: 1.5em;
 }
 
 .vertical-line{
