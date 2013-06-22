@@ -163,3 +163,30 @@ aside .widget {
 #social ul li.email a:hover .icon {
     background-color:#66C804;
 }
+
+/* Common */
+    .box { font-size:16px; margin:25px 15px 0 15px;}
+    .box li {  padding-bottom:15px;}
+    .box li span {color:#3290CC; display:block; padding-bottom:5px; }
+
+    .loisirs-contact { margin-top:20px;}
+    .loisirs { float:left; height:180px; width:430px;}
+    .loisirs p { font-size:16px; margin:15px 15px 0 15px;}
+    .loisirs ul { font-size:16px; margin:15px 15px 0 15px; }
+    .loisirs li { float:left; padding-bottom:20px;}
+
+    .gotop { position:fixed; }
+
+    .contact { float:left; height:180px;}
+    .contact a { text-decoration:none;}
+    .contact a:hover {color:#156FA9;}
+    .contact ul { font-size:16px; margin:5px 0 0 40px;}
+    .contact li { padding-top:15px; padding-left:35px;}
+    .contact .mail { background-position:0 -310px;}
+    .contact .phone { background-position:0 -265px;}
+    .contact .web { background-position:0 -229px;}
+
+    /* Footer */
+    footer { padding:15px 0;}
+    footer p { font-size:12px; text-align:center; margin-top:5px;}
+    footer a { color:#156FA9; text-decoration:none;}
