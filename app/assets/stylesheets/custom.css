@@ -10,11 +10,10 @@ body {
     z-index: 2;
     position: absolute;
     top: 0.2%;
-    left: 49%;
-    right: 50%;
-    margin: 0% 0% 0% 0%;
-    width: 60px;
-    height: 60px;
+    left: 46.5%;
+    margin: 0.3% 0% 0% 0%;
+    width: 5.5%;
+    height: 5.5%;
 }
 .header{
     top: 1.1%;
@@ -23,22 +22,24 @@ body {
 	background-color: #2ba6cb;
 	color: white;
     line-height: 1.2em;
-    height: 95px;
+    height: 14.5%;
     width: 100%;
     z-index: 1;
     position: absolute;
+    border-top: 1px dotted #ddd;
+    border-bottom: 1px dotted #ddd;
 }
 
-.gray-text{
+.header .gray-text{
 	color: #CCC;
 	font-size: 0.9em;
-	margin-top: 0.1em;
+	margin-top: 3.5em;
 }
-.name{
+.header .name{
 	font-size: 2.0em;
-	margin-top: 1.4em;
     line-height: 0.9em;
     top: 50%;
+    position: relative;
 }
 .top-bar{
     margin: 12% 8% 0% 8%;
