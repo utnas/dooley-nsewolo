@@ -5,27 +5,15 @@ body {
     font: 15px "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 300;
 }
-.avatar{
-	text-align: center;
-    z-index: 2;
-    position: absolute;
-    top: 0.2%;
-    left: 46.5%;
-    margin: 0.1% 0% 0% 0%;
-    width: 5.5%;
-    height: 5.5%;
-}
 .header{
     top: 1.1%;
-	margin-top: 3%;
+	margin-top: 1%;
 	text-align: center;
 	background-color: #2ba6cb;
 	color: white;
     line-height: 1.2em;
-    height: 14.5%;
+    height: 135px;
     width: 100%;
-    z-index: 1;
-    position: absolute;
     border-top: 1px dotted #ddd;
     border-bottom: 1px dotted #ddd;
 }
@@ -33,17 +21,17 @@ body {
 .gray-text{
 	color: #CCC;
 	font-size: 0.9em;
-	margin-top: 3.5em;
+	margin-top: 12px;
 } 
 .name{
 	font-size: 2.0em;
     line-height: 0.9em;
-    top: 50%;
+    top: 9px;
     position: relative;
 }
 .top-bar{
     top: 12%;
-    margin: 12% 8% 0% 8%;
+    margin: 3% 8% 0% 8%;
 }
 
 .main-content{
